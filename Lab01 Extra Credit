@@ -1,0 +1,14 @@
+{
+	class Program
+	{
+		static void Main(string[] args)
+		{
+			string str1, str2;
+
+			str1 = "Hello world ";
+			str2 = "from Jeff!";
+
+			Console.WriteLine(str1+str2);
+		}
+	}
+}
