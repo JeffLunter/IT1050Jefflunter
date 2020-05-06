@@ -1,0 +1,53 @@
+using System;
+using System.Collections.Generic;
+using System.Text;
+
+namespace Lab07
+{
+    class Book
+    {
+        string Title;
+        string Author;
+        int Year;
+
+        public Book(string Title, string Author, int Year)
+        {
+            this.Title = Title;
+            this.Author = Author;
+            this.Year = Year;
+        }
+
+        public void Display()
+        {
+            Console.WriteLine("{0} was written by {1} in {2}.", Title, Author, Year);        
+        }
+    }
+}
+
+using System;
+
+namespace Lab07
+{
+    class BookTest
+    {
+        static void Main(string[] args)
+        { 
+            
+            Book myBook = new Book("Percy Jackson and Olympions", "Rick Riordan");
+
+            myBook.Display();
+        }
+
+        // 3. Object Initializer
+
+        //4. Overload Constructors are created
+
+        //5. Include more information at a later date
+
+        //6. Private is important if you're trying to protect the information distributed. Public is something that is available to every one that accesses it. It hides information so people will not be able to copy it.
+
+        //7. Composition describes a class that has one or more object. We used it in book with the strings Title and Year and the integer Year.
+
+        //8. Abstraction hides all but the relevent data in order to increase efficiency. 
+    }
+}
