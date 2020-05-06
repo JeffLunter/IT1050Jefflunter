@@ -1,0 +1,44 @@
+using System;
+
+namespace Lab_06
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            /* 1. p[0], p[1], p[2], and p[3]
+            */
+
+            /* 2.
+             string[] months = { "January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December" };
+            for (int i = 0; i < months.Length; i++)
+                Console.WriteLine("{0} {1}", i + 1, months[i]);
+                */
+
+            /* 3.
+            string[] seasons = { "Winter", "Spring", "Summer", "Fall" };
+
+            foreach (string season in seasons)
+                Console.WriteLine(season);
+                */
+
+            /* 4.
+             *int [] elements = new int[1000];
+
+            Random random = new Random(1000);
+            int randomNumber;
+
+            randomNumber = random.Next(0, 100);
+
+            foreach (int element in elements)
+                Console.WriteLine(randomNumber);
+                */
+
+           /* I could not figure out the solution for answer 5 and thus could not complete the rest of the lab. 
+            * I've gone back to while loops in a previous chapter and still don't know how to do it. Will ask in class.
+            */
+           }
+
+        }
+    }
+}
