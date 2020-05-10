@@ -1,0 +1,24 @@
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            /* 1. a. Scope is public
+             *    b. Static is the double height, double width
+             *    c. Return type is the height * width
+             *    d. Method name is getArea
+             *    e. Paramaters are the height and width
+             *    f. Method body is the whole public section
+             *
+             * 2. User-defined methods are custom methods that we write. Framework provided methods provide meaningful methods for a platform or framework. When creating a user-defined method,
+             * we need to understand that every method should contain a single, well-defined task.
+             * 
+             * 3. A static method belongs to the class and a non-static method belongs to an object of a class
+
+
+
+
+
+            */
+        }
+    }
+}
